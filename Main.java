@@ -25,7 +25,7 @@ public class Main{
 
             switch (opcion) {
                 case 1:
-                    System.out.println("1. Calcular perimetro, 2. Calcular area");
+                    System.out.println("1. Calcular perimetro, 2. Calcular area, 0. Salir");
                     int opcion2 = scanner.nextInt();
                     if (opcion2 == 1) {
                         System.out.print("Ingrese el lado del cuadrado: ");
@@ -44,7 +44,7 @@ public class Main{
         
                     break;
                 case 2:
-                    System.out.println("1. Calcular perimetro, 2. Calcular area");
+                    System.out.println("1. Calcular perimetro, 2. Calcular area, 0. Salir");
                     int opcion3 = scanner.nextInt();
                     if (opcion3 == 1) {
                         System.out.print("Ingrese la base del rectangulo: ");
@@ -61,13 +61,13 @@ public class Main{
                         float area = base * altura;
                         System.out.println("El area del rectangulo es: " + area);
                     } else {
-                        System.out.println("Opcion invalida");
+                        System.out.println("Saliendo");
                         
                     }
                     break;
 
                 case 3:
-                    System.out.println("1. Calcular perimetro, 2. Calcular area");
+                    System.out.println("1. Calcular perimetro, 2. Calcular area, 0. Salir");
                     int opcion4 = scanner.nextInt();
                     if (opcion4 == 1) {
                         System.out.print("Ingrese el lado del triangulo: ");
@@ -82,13 +82,13 @@ public class Main{
                         double area = (base * altura) / 2.0;
                         System.out.println("El area del triangulo es: " + area);
                     } else {
-                        System.out.println("Opcion invalida");
+                        System.out.println("Saliendo");
                         
                     }
                     break;
 
                 case 4:
-                    System.out.println("1. Calcular perimetro, 2. Calcular area");
+                    System.out.println("1. Calcular perimetro, 2. Calcular area, 0. Salir");
                     int opcion5 = scanner.nextInt();
                     if (opcion5 == 1) {
                         System.out.print("Ingrese el radio del circulo: ");
@@ -101,13 +101,13 @@ public class Main{
                         double area = Math.PI * Math.pow(radio, 2);
                         System.out.println("El area del circulo es: " + area);
                     } else {
-                        System.out.println("Opcion invalida");
+                        System.out.println("Saliendo");
                         
                     }
                     break;
 
                 case 5 :
-                    System.out.println("1. Calcular perimetro, 2. Calcular area");
+                    System.out.println("1. Calcular perimetro, 2. Calcular area, 0. Salir");
                     int opcion6 = scanner.nextInt();
                     if (opcion6 == 1) {
                         System.out.print("Ingrese el lado del pentágono: ");
@@ -122,7 +122,7 @@ public class Main{
                         double area = (5 * lado * apotema) / 2.0;
                         System.out.println("El area del pentágono es: " + area);
                     } else {
-                        System.out.println("Opcion invalida");
+                        System.out.println("Saliendo");
                         
                     }
                     break;
